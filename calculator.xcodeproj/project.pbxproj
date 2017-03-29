@@ -13,6 +13,7 @@
 		CA60EFB81E89996D00627E1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA60EFB71E89996D00627E1E /* Assets.xcassets */; };
 		CA60EFBB1E89996D00627E1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA60EFB91E89996D00627E1E /* LaunchScreen.storyboard */; };
 		CA60EFC61E89996D00627E1E /* calculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA60EFC51E89996D00627E1E /* calculatorTests.swift */; };
+		CA60EFD11E89AE8200627E1E /* button-push.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA60EFD01E89AE8200627E1E /* button-push.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		CA60EFC11E89996D00627E1E /* calculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA60EFC51E89996D00627E1E /* calculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calculatorTests.swift; sourceTree = "<group>"; };
 		CA60EFC71E89996D00627E1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA60EFD01E89AE8200627E1E /* button-push.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "button-push.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				CA60EFB01E89996D00627E1E /* AppDelegate.swift */,
+				CA60EFD01E89AE8200627E1E /* button-push.wav */,
 				CA60EFB21E89996D00627E1E /* ViewController.swift */,
 				CA60EFB41E89996D00627E1E /* Main.storyboard */,
 				CA60EFB71E89996D00627E1E /* Assets.xcassets */,
@@ -179,6 +182,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA60EFD11E89AE8200627E1E /* button-push.wav in Resources */,
 				CA60EFBB1E89996D00627E1E /* LaunchScreen.storyboard in Resources */,
 				CA60EFB81E89996D00627E1E /* Assets.xcassets in Resources */,
 				CA60EFB61E89996D00627E1E /* Main.storyboard in Resources */,
@@ -406,6 +410,7 @@
 				CA60EFCC1E89996D00627E1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA60EFCD1E89996D00627E1E /* Build configuration list for PBXNativeTarget "calculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +419,7 @@
 				CA60EFCF1E89996D00627E1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
